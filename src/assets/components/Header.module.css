@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 50px 0;
     display: flex;
     justify-content: space-between; /* Espaçamento entre os elementos */
     align-items: center; /* Alinha os itens verticalmente */
@@ -26,9 +26,14 @@
   
   /* Botão com imagem */
   .button img {
-    width: 40px; /* Tamanho da imagem */
-    height: 40px;
-    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+    width: 50px; /* Tamanho da imagem */
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .button:first-child img {
+    width: 80px;
+    height: 80px;
   }
   
   .button img:hover {
