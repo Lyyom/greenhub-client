@@ -5,6 +5,9 @@
     justify-content: center;
     margin: 1rem 0;
     gap: 0.5rem;
+    position: relative;
+    z-index: 50;
+    padding-bottom: 60px;
 }
 
 /* Botões de página */

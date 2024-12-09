@@ -1,0 +1,37 @@
+
+
+/* Estilo do Header */
+.header {
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    z-index: 1000; /* Garante que o header fique acima dos outros elementos */
+  }
+  
+  /* Contêiner dos botões e itens do header */
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Espaçamento uniforme entre os botões */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 90%; /* Adapta-se ao tamanho da tela */
+    max-width: 400px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente o conteúdo */
+  }
+  
+  /* Botão com imagem */
+  .button img {
+    width: 40px; /* Tamanho da imagem */
+    height: 40px;
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+  }
+  
+  .button img:hover {
+    transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
+  }
+  

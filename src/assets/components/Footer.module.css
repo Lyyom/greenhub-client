@@ -1,0 +1,32 @@
+.buttonContainer {
+    position: fixed; /* Fixa o footer na parte inferior da tela */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Ocupar toda a largura */
+    background-color: #CBE86B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px; /* Altura fixa */
+    z-index: 100; /* Garante que está acima de outros elementos */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar o footer */
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonContainer img {
+    width: 30px; /* Ajusta o tamanho das imagens */
+    height: 30px;
+    filter: brightness(0); /* Garante que as imagens fiquem pretas */
+  }
+  
+  .button img:hover {
+    transform: scale(1.1); /* Aumenta um pouco o tamanho no hover */
+  }
+  
+  
