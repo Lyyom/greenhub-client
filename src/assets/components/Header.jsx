@@ -10,10 +10,7 @@ return(
     <header>
     <div className={styles.buttonContainer}>
         <Link to ="/" className={styles.button}>
-        <img src={Logo} alt="imagem da logo do site" />
-        </Link>
-        <Link to="*" className={styles.button}>
-        <img src={menuImg} alt="imagem de menu do site" />
+            <img src={Logo} alt="imagem da logo do site" />
         </Link>
     </div>
     </header>

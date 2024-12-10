@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./MainPage.module.css";
 import MainProductIMG from "../img/MainProductIMG.png"
@@ -15,17 +14,17 @@ function MainPage() {
 
       <div className={styles.buttonContainer}>
         <Link to="/products" className={styles.button}>
-           <span className="button-text">Produtos</span>
+          <span className="button-text">Produtos</span>
           <img src={MainProductIMG} alt="imagem reciclável botão de produtos" />
         </Link>
-        <Link to="/sellers" className={styles.button}>
-           <span className="button-text">Funcionários</span>
+        <Link to="/workers" className={styles.button}>
+          <span className="button-text">Funcionários</span>
           <img src={MainFuncionariosImg} alt="imagem do botão de funcionários"/>
         </Link>
-        <button className={styles.button} disabled>
-           <span className="button-text">Fornecedores</span>
-          <img src={MainFornecedoresIMG} alt="Imagem do botão de fornecedores" />
-        </button>
+        <Link to="/companies" className={styles.button}>
+          <span className="button-text">Empresas</span>
+          <img src={MainFornecedoresIMG} alt="Imagem do botão de empresas" />
+        </Link>
       </div>
     </div>
   );

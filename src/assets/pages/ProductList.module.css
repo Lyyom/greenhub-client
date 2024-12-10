@@ -13,3 +13,13 @@ body {
     align-items: center;
     padding: 1rem;
 }
+
+.container h2 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.productCard p {
+    text-align: center;
+    margin: 1rem 0;
+}

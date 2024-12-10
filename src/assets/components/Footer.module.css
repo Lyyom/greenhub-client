@@ -5,7 +5,8 @@
     width: 100%; /* Ocupar toda a largura */
     background-color: #CBE86B;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 7rem;
     align-items: center;
     padding: 10px 20px;
     height: 60px; /* Altura fixa */
@@ -20,8 +21,9 @@
   }
   
   .buttonContainer img {
-    width: 30px; /* Ajusta o tamanho das imagens */
-    height: 30px;
+    width: 35px; /* Ajusta o tamanho das imagens */
+    height: 35px;
+    object-fit: contain;
     filter: brightness(0); /* Garante que as imagens fiquem pretas */
   }
   
